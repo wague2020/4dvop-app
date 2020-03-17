@@ -1,0 +1,87 @@
+Last login: Mon Mar 16 09:19:15 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Wague-MacBook-Air:~ apple$ mkdir jendins
+Wague-MacBook-Air:~ apple$ cd jendins
+Wague-MacBook-Air:jendins apple$ ls
+Wague-MacBook-Air:jendins apple$ nano docker-compose.yml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6           File: docker-compose.yml                   Modified  
+
+      - '50000:50000'
+    volumes:
+      - 'jenkins_data:/bitnami'
+volumes:
+  jenkins_data:
+  driver: local
+jenkins:
+  ...
+  environment:
+    - JENKINS_PASSWORD=your-password
+  ...
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
